@@ -1,0 +1,64 @@
+@media screen and (min-width: 468px) and (max-width: 768px) {
+  nav {
+    background-color: rgb(55, 43, 226);
+		height: 75px;
+	}
+	aside {
+    background-color: blue;
+		height: 150px;
+		width: 100%;
+	}
+	section {
+    background-color:blue;
+		height: 150px;
+		width: 100%;
+  }
+  article{
+    background-color: blue;
+    width: 49.9%;
+    height: 190px;
+    float: left;
+  }
+  footer{
+    background-color: blue;
+    float: left;
+    height: 200px;
+    width:  100%;
+  }
+}
+ @media screen and (min-width: 768px) {
+	nav {
+    background-color:white;
+		height: 100px;
+	}
+	aside {
+    background-color: white;
+		height: 600px;
+		width: 20%;
+		float: left;
+	}
+	section {
+    background-color: white;
+		height: 200px;
+		width: 40%;
+		float: left;
+  }
+  #d section{
+    background-color: white;
+    height: 200px;
+		width: 39.9%;
+		float: right;
+  }
+  article{
+    background-color: white;
+    width: 19.9%;
+    height: 190px;
+    float: left;
+  }
+  footer{
+    background-color: white;
+    float: left;
+    height: 210px;
+    width:  79.9%;
+	}
+}
